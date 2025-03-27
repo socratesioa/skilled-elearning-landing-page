@@ -308,9 +308,13 @@ footer {
     margin: 0 auto;
     padding: 64px 0;
     display: grid;
-    grid-template-columns: minmax(544px, 1fr) 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
     margin-bottom: 264px;
+  }
+
+  .hero-text {
+    max-width: 457px;
   }
 
   .hero-img {
